@@ -1,8 +1,0 @@
-name: Grid CI
-
-on:
-  workflow_dispatch:
-
-jobs:
-  grid_ci:
-    uses: RunOnGrid/workflows-reusable/.github/workflows/ci.yml@main
